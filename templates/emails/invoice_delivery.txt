@@ -1,0 +1,27 @@
+
+<!-- templates/emails/invoice_delivery.txt -->
+Dear {{ invoice.quote.name }},
+
+We are pleased to provide you with your invoice.
+
+Invoice Summary:
+Invoice Number: {{ invoice.invoice_number }}
+Issue Date: {{ invoice.issue_date|date:"F d, Y" }}
+Due Date: {{ invoice.due_date|date:"F d, Y" }}
+Total Amount: ${{ invoice.total }}
+
+Payment Instructions:
+{{ payment_instructions }}
+
+The invoice PDF is attached to this email. Please review it carefully and let us know if you have any questions.
+
+Payment Methods:
+- Bank Transfer
+- Credit/Debit Card
+- Online Payment Portal
+
+Thank you for your business!
+
+Best regards,
+{{ company_name }}
+

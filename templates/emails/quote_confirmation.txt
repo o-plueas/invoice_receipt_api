@@ -1,0 +1,30 @@
+     
+<!-- templates/emails/quote_confirmation.txt -->
+Dear {{ quote.name }},
+
+Thank you for submitting your quote request. We have received your inquiry and our team will review it shortly.
+
+Quote Details:
+Reference Number: {{ quote.reference_number }}
+Service Type: {{ quote.get_service_type_display }}
+Submission Date: {{ quote.created_at|date:"F d, Y" }}
+Status: {{ quote.get_status_display }}
+
+Your Message:
+{{ quote.message }}
+
+We have attached a PDF copy of your quote for your records. Our team will get back to you within 24-48 business hours with a detailed proposal.
+
+Next Steps:
+- Our team will review your requirements
+- You will receive a detailed quote via email
+- We may reach out for additional information if needed
+
+If you have any questions in the meantime, please don't hesitate to contact us.
+
+Best regards,
+{{ company_name }}
+{{ company_email }} | {{ company_phone }}
+
+{{ email_footer }}
+

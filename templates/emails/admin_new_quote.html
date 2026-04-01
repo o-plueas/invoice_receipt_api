@@ -1,0 +1,67 @@
+
+<!-- templates/emails/admin_new_quote.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background: #1f2937;
+            color: white;
+            padding: 20px;
+            border-radius: 8px 8px 0 0;
+        }
+        .content {
+            background: #ffffff;
+            padding: 20px;
+            border: 1px solid #e5e7eb;
+        }
+        .alert {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .quote-info {
+            background: #f3f4f6;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>🔔 New Quote Received</h2>
+    </div>
+    
+    <div class="content">
+        <div class="alert">
+            <strong>Action Required:</strong> A new quote has been submitted and requires your review.
+        </div>
+        
+        <div class="quote-info">
+            <h3>Quote Information</h3>
+            <p><strong>Reference:</strong> {{ quote.reference_number }}</p>
+            <p><strong>Name:</strong> {{ quote.name }}</p>
+            <p><strong>Email:</strong> {{ quote.email }}</p>
+            <p><strong>Phone:</strong> {{ quote.phone }}</p>
+            <p><strong>Service:</strong> {{ quote.get_service_type_display }}</p>
+            <p><strong>Date:</strong> {{ quote.created_at|date:"F d, Y h:i A" }}</p>
+            
+            <p><strong>Message:</strong></p>
+            <p style="background: white; padding: 10px; border-radius: 4px;">{{ quote.message }}</p>
+        </div>
+        
+        <p>Please log in to the admin panel to review and respond to this quote.</p>
+    </div>
+</body>
+</html>

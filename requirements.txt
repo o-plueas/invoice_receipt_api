@@ -1,0 +1,13 @@
+# requirements.txt
+django 
+djangorestframework
+djangorestframework-simplejwt
+django-cors-headers
+Pillow
+reportlab
+python-decouple
+drf-yasg
+celery
+redis
+psycopg2-binary
+django-filter
