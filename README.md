@@ -183,9 +183,9 @@ RECEIPTS
 INSTALLATION
 
 1. Clone repository API
-   git clone https://github.com/o-plueas/invoice_receipt_api.git
+   git clone https://github.com/o-plueas/invoice_receipt_api.git (API project)
 
-    git clone https://github.com/o-plueas/businessystem.git
+   git clone https://github.com/o-plueas/businessystem.git (Poject that utilized the api)
 
 2. Create virtual environment
    python -m venv venv

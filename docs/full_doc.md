@@ -812,9 +812,9 @@ API: https://oplueaswsapi.pythonanywhere.com/api
 
 Repository GitHub
 
-   API REPO: https://github.com/o-plueas/invoice_receipt_api.git
+   API REPO: https://github.com/o-plueas/invoice_receipt_api.git (API Project)
 
-    FRONTEND REPO:  https://github.com/o-plueas/businessystem.git
+    FRONTEND REPO:  https://github.com/o-plueas/businessystem.git (Poject that utilized the api)
 
 LICENSE
 
