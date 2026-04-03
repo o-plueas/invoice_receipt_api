@@ -282,7 +282,7 @@ https://drive.google.com/file/d/1klrovr20YEJH0ysU3JK3hsAQwB_ffWDH/view?usp=drive
 
 
 
-LIVE DEMO
+Video DEMO
 https://youtu.be/yFt12oTRTkA?si=XBuwlBg8CUJmw2yy 
 
 Live site
