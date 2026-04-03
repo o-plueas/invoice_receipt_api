@@ -5,19 +5,7 @@ BUSINESS SYSTEM WITH INVOICE AND RECEIPT GENERATOR
 
 A comprehensive full-stack quote-to-invoice management system for interior design businesses, featuring automated workflows, real-time tracking, and seamless client communication.
 
-LIVE DEMO
-https://youtu.be/yFt12oTRTkA?si=XBuwlBg8CUJmw2yy 
-
-Live site
-
-SPA: https://ajibo-interiors-worldwide.onrender.com/ 
-
-& 
-
-Dashboard: https://ajibo-interiors-worldwide.onrender.com/dashboard/
-
-API: https://oplueaswsapi.pythonanywhere.com/api
-
+PS: SEE docs/full_doc.md for More details
 
 
 OVERVIEW
@@ -258,6 +246,56 @@ DEPLOYMENT
 
 1. Backend: PythonAnywhere
 2. Frontend: Render
+
+
+
+
+
+ScreenShots
+
+Contact form:
+https://drive.google.com/file/d/10W7UifE119wN_k9c6SowB2uPLtqvXbPC/view?usp=drive_link
+
+Admin Contact panel
+https://drive.google.com/file/d/1IxwHzla3r43G2IWkxaUyUKhZeW33i9G7/view?usp=drive_link
+
+Admin Dashboard:
+https://drive.google.com/file/d/1-ssRK-TD_oTo3wHL_fK9xsLyVSoeJfMj/view?usp=drive_link
+
+Admin Invoice Form 
+https://drive.google.com/file/d/14dhL2Iq3hdTnp4WHbnuLcPUf9vQts8nR/view?usp=drive_link
+
+Admin Invoice
+https://drive.google.com/file/d/1ZdNf266EELwMtlOwQCTPDQCVpaz4o1pA/view?usp=drive_link
+
+Admin Invoice List
+https://drive.google.com/file/d/1zlGkGmb29PDQTp-78HPFU5LKaj81B7Uc/view?usp=drive_link
+
+Admin Payment Recorder 
+https://drive.google.com/file/d/104FxAx_eZ4-gwmaWJHEUhODpgAJ_kpkc/view?usp=drive_link
+
+Admin Receipt Generator 
+https://drive.google.com/file/d/1NCxgktGuIytiC_wwjxydTeMv8bJzGZQZ/view?usp=drive_link
+
+Receipt
+https://drive.google.com/file/d/1klrovr20YEJH0ysU3JK3hsAQwB_ffWDH/view?usp=drive_link
+
+
+
+LIVE DEMO
+https://youtu.be/yFt12oTRTkA?si=XBuwlBg8CUJmw2yy 
+
+Live site
+
+SPA: https://ajibo-interiors-worldwide.onrender.com/ 
+
+& 
+
+Dashboard: https://ajibo-interiors-worldwide.onrender.com/dashboard/
+
+API: https://oplueaswsapi.pythonanywhere.com/api
+
+
 
 
 
