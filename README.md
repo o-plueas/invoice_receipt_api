@@ -5,15 +5,24 @@ BUSINESS SYSTEM WITH INVOICE AND RECEIPT GENERATOR
 
 A comprehensive full-stack quote-to-invoice management system for interior design businesses, featuring automated workflows, real-time tracking, and seamless client communication.
 
-LIVE DEMO: https://ajibo-interiors-worldwide.onrender.com/dashboard/
+LIVE DEMO
+https://youtu.be/yFt12oTRTkA?si=XBuwlBg8CUJmw2yy 
 
-API: https://oplueaswsapi.pythonanywhere.com
+Live site
+
+SPA: https://ajibo-interiors-worldwide.onrender.com/ 
+
+& 
+
+Dashboard: https://ajibo-interiors-worldwide.onrender.com/dashboard/
+
+API: https://oplueaswsapi.pythonanywhere.com/api
 
 
 
 OVERVIEW
 
-Ajibo Interiors Management System is an enterprise-grade SaaS solution designed to streamline the complete lifecycle of interior design projects — from initial client quote requests to final payment receipts.
+This Business management System is an enterprise-grade SaaS solution designed to streamline the complete lifecycle of interior design projects — from initial client quote requests to final payment receipts.
 
 The system eliminates manual paperwork, reduces operational errors, and provides real-time visibility into business performance.
 
@@ -185,8 +194,10 @@ RECEIPTS
 
 INSTALLATION
 
-1. Clone repository
+1. Clone repository API
    git clone https://github.com/o-plueas/invoice_receipt_api.git
+
+    git clone https://github.com/o-plueas/businessystem.git
 
 2. Create virtual environment
    python -m venv venv

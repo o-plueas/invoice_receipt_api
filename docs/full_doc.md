@@ -9,8 +9,14 @@ AJIBO INTERIORS MANAGEMENT SYSTEM
 A comprehensive full-stack quote-to-invoice management system for interior design businesses, featuring invoice generator,
 receipt generator and payment recorder
 
-Live Demo https://ajibo-interiors-worldwide.onrender.com/dashboard/
-API Status https://oplueaswsapi.pythonanywhere.com
+LIVE DEMO
+https://youtu.be/yFt12oTRTkA?si=XBuwlBg8CUJmw2yy 
+
+
+Live site
+
+https://ajibo-interiors-worldwide.onrender.com/dashboard/
+API site: https://oplueaswsapi.pythonanywhere.com
 DRF https://www.django-rest-framework.org/
 
 
@@ -369,8 +375,9 @@ Virtual environment recommended
 BACKEND SETUP
 
 1 Clone Repository
-git clone https://github.com/yourusername/ajibo-interiors-api.git
-cd ajibo-interiors-api
+git clone https://github.com/o-plueas/invoice_receipt_api.git
+
+cd invoice_receipt_api.git
 
 2 Create Virtual Environment
 python -m venv venv
@@ -715,7 +722,8 @@ DEPLOYMENT
 PYTHONANYWHERE BACKEND
 
 1 Upload code
-git clone https://github.com/yourusername/repo.git
+   git clone https://github.com/o-plueas/invoice_receipt_api.git
+
 
 2 Install dependencies
 pip install -r requirements.txt
@@ -750,11 +758,23 @@ Email ogochukwu lucy ugwu
 LinkedIn www.linkedin.com/in/ogochukwu-lucy-ugwu
 
 Project Links
-Live Demo https://ajibo-interiors-worldwide.onrender.com/dashboard/
-API https://oplueaswsapi.pythonanywhere.com
-Repository GitHub https://github.com/yourusername/ajibo-interiors
+
+LIVE DEMO
+
+SPA: https://ajibo-interiors-worldwide.onrender.com/dashboard/ 
+
+& 
+
+Dashboard: https://ajibo-interiors-worldwide.onrender.com/dashboard/
+
+API: https://oplueaswsapi.pythonanywhere.com/api
 
 
+Repository GitHub
+
+   API REPO: https://github.com/o-plueas/invoice_receipt_api.git
+
+    FRONTEND REPO:  https://github.com/o-plueas/businessystem.git
 
 LICENSE
 
